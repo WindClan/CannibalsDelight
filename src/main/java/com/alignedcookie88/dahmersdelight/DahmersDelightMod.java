@@ -68,6 +68,13 @@ public class DahmersDelightMod implements ModInitializer {
 					.meat()
 					.build()
 	));
+	public static final Item PASTA_WITH_HUMAN_MEATBALLS_ITEM = new Item(new FabricItemSettings().food(
+			new FoodComponent.Builder()
+					.hunger(20)
+					.saturationModifier(1.0F)
+					.meat()
+					.build()
+	));
 	public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(COOKED_HUMAN_MEAT_ITEM))
 			.displayName(Text.translatable("itemGroup.dahmersdelight.dahmersdelight"))
@@ -77,6 +84,7 @@ public class DahmersDelightMod implements ModInitializer {
 				entries.add(MINCED_HUMAN_ITEM);
 				entries.add(HUMAN_PATTY_ITEM);
 				entries.add(HUMAN_BURGER_ITEM);
+				entries.add(PASTA_WITH_HUMAN_MEATBALLS_ITEM);
 			})
 			.build();
 
@@ -91,6 +99,7 @@ public class DahmersDelightMod implements ModInitializer {
 		Registry.register(Registries.ITEM, new Identifier(modId, "minced_human"), MINCED_HUMAN_ITEM);
 		Registry.register(Registries.ITEM, new Identifier(modId, "human_patty"), HUMAN_PATTY_ITEM);
 		Registry.register(Registries.ITEM, new Identifier(modId, "human_burger"), HUMAN_BURGER_ITEM);
+		Registry.register(Registries.ITEM, new Identifier(modId, "pasta_with_human_meatballs"), PASTA_WITH_HUMAN_MEATBALLS_ITEM);
 		LOGGER.info("Registered.");
 		LOGGER.info("Registering item groups");
 		Registry.register(Registries.ITEM_GROUP, new Identifier(modId, "dahmersdelight"), ITEM_GROUP);
