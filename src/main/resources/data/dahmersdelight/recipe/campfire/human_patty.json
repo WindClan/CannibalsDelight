@@ -6,7 +6,9 @@
   "ingredient": {
     "item": "dahmersdelight:minced_human"
   },
-  "result": "dahmersdelight:human_patty",
+  "result": {
+    "id":"dahmersdelight:human_patty"
+  },
   "experience": 5,
   "cookingtime": 600
 }

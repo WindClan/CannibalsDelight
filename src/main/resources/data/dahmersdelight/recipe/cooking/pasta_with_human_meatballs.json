@@ -7,7 +7,7 @@
       "item": "dahmersdelight:minced_human"
     },
     {
-      "tag": "c:foods/pastas"
+      "tag": "c:foods/pasta"
     },
     {
       "item": "farmersdelight:tomato_sauce"
@@ -15,6 +15,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "item": "dahmersdelight:pasta_with_human_meatballs"
+    "id": "dahmersdelight:pasta_with_human_meatballs"
   }
 }

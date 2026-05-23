@@ -4,9 +4,11 @@
   "group": "",
   "show_notification": false,
   "ingredient": {
-    "item": "dahmersdelight:minced_human"
+    "item":"dahmersdelight:raw_human_meat"
   },
-  "result": "dahmersdelight:human_patty",
+  "result": {
+    "id":"dahmersdelight:cooked_human_meat"
+  },
   "experience": 5,
   "cookingtime": 100
 }

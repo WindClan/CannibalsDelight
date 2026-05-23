@@ -1,12 +1,14 @@
 {
-  "type": "minecraft:campfire_cooking",
+  "type": "minecraft:smelting",
   "category": "",
   "group": "",
   "show_notification": false,
   "ingredient": {
     "item": "dahmersdelight:raw_human_meat"
   },
-  "result": "dahmersdelight:cooked_human_meat",
+  "result": {
+    "id": "dahmersdelight:cooked_human_meat"
+  },
   "experience": 5,
-  "cookingtime": 600
+  "cookingtime": 200
 }
