@@ -104,10 +104,10 @@ public class main implements ModInitializer {
 			if (entity.isPlayer()) { // if the killer is player
 				PlayerEntity player = (PlayerEntity) entity; // get entity as player
 				ItemStack mainhand = player.getInventory().getMainHandStack(); // get player's main hand item
-				if (mainhand.isIn(HUMAN_MEAT_KNIVES_ITAG)) { // check the main hand item is in the dahmersdelight:human_meat_knives item tag
-					if (killedEntity.getType().isIn(HUMAN_ENTITIES_ETAG)) { // check the killed entity is in the dahmersdelight:human_entities entity type tag
+				if (mainhand.isIn(HUMAN_MEAT_KNIVES_ITAG)) { // check the main hand item is in the cannibalsdelight:human_meat_knives item tag
+					if (killedEntity.getType().isIn(HUMAN_ENTITIES_ETAG)) { // check the killed entity is in the cannibalsdelight:human_entities entity type tag
 						Vec3d pos = killedEntity.getPos(); // get the position of the killed entity
-						ItemEntity e = new ItemEntity(world, pos.x, pos.y, pos.z, new ItemStack(RAW_HUMAN_MEAT_ITEM, 1)); // create the meat drop entity
+						ItemEntity e = new ItemEntity(world, pos.x, pos.y, pos.z, new ItemStack(RAW_HUMAN_MEAT_ITEM, (int)Math.floor(Math.random()*3+0.5))); // create the meat drop entity
 						world.spawnEntity(e); // spawn in the entity - i forgot to do this and was so confused lol
 					}
 				}
