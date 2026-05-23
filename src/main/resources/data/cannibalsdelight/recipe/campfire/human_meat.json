@@ -4,10 +4,10 @@
   "group": "",
   "show_notification": false,
   "ingredient": {
-    "item": "dahmersdelight:raw_human_meat"
+    "item": "cannibalsdelight:raw_human_meat"
   },
   "result": {
-    "id":"dahmersdelight:cooked_human_meat"
+    "id":"cannibalsdelight:cooked_human_meat"
   },
   "experience": 5,
   "cookingtime": 600

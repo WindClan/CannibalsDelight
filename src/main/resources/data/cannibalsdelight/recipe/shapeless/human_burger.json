@@ -6,7 +6,7 @@
       "tag": "c:foods/bread"
     },
     {
-      "item": "dahmersdelight:human_patty"
+      "item": "cannibalsdelight:human_patty"
     },
     {
       "tag": "c:foods/leafy_green"
@@ -19,7 +19,7 @@
     }
   ],
   "result": {
-    "id": "dahmersdelight:human_burger",
+    "id": "cannibalsdelight:human_burger",
     "count": 1
   }
 }

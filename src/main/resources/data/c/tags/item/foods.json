@@ -1,10 +1,10 @@
 {
   "values": [
-    "dahmersdelight:cooked_human_meat",
-    "dahmersdelight:human_burger",
-    "dahmersdelight:human_patty",
-    "dahmersdelight:minced_human",
-    "dahmersdelight:pasta_with_human_meatballs",
-    "dahmersdelight:raw_human_meat"
+    "cannibalsdelight:cooked_human_meat",
+    "cannibalsdelight:human_burger",
+    "cannibalsdelight:human_patty",
+    "cannibalsdelight:minced_human",
+    "cannibalsdelight:pasta_with_human_meatballs",
+    "cannibalsdelight:raw_human_meat"
   ]
 }

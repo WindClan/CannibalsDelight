@@ -4,10 +4,10 @@
   "group": "",
   "show_notification": false,
   "ingredient": {
-    "item":"dahmersdelight:minced_human"
+    "item":"cannibalsdelight:minced_human"
   },
   "result": {
-    "id": "dahmersdelight:human_patty"
+    "id": "cannibalsdelight:human_patty"
   },
   "experience": 5,
   "cookingtime": 100

@@ -2,13 +2,13 @@
   "type": "farmersdelight:cutting",
   "ingredients": [
     {
-      "item": "dahmersdelight:raw_human_meat"
+      "item": "cannibalsdelight:raw_human_meat"
     }
   ],
   "result": [
     {
       "item": {
-        "id":"dahmersdelight:minced_human",
+        "id":"cannibalsdelight:minced_human",
         "count": 2
       }
     }

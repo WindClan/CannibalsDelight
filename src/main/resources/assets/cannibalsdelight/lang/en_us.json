@@ -1,0 +1,11 @@
+{
+  "item.cannibalsdelight.raw_human_meat": "Raw Human Meat",
+  "item.cannibalsdelight.cooked_human_meat": "Cooked Human Meat",
+  "item.cannibalsdelight.minced_human": "Minced Human",
+  "item.cannibalsdelight.human_patty": "Human Patty",
+  "item.cannibalsdelight.human_burger": "Human Burger",
+  "item.cannibalsdelight.pasta_with_human_meatballs": "Pasta with Human Meatballs",
+  "itemGroup.cannibalsdelight.cannibalsdelight": "Cannibal's Delight",
+  "tags.item.human_meat_knives": "Human Meat Knives",
+  "tags.entity_type.human_entities": "Human Entities"
+}

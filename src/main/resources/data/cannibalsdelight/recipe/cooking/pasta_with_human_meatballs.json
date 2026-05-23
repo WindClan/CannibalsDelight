@@ -4,7 +4,7 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "dahmersdelight:minced_human"
+      "item": "cannibalsdelight:minced_human"
     },
     {
       "tag": "c:foods/pasta"
@@ -15,6 +15,6 @@
   ],
   "recipe_book_tab": "meals",
   "result": {
-    "id": "dahmersdelight:pasta_with_human_meatballs"
+    "id": "cannibalsdelight:pasta_with_human_meatballs"
   }
 }

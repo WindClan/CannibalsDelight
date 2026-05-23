@@ -1,4 +1,4 @@
-package com.alignedcookie88.dahmersdelight;
+package windclan.cannibalsdelight;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -24,9 +24,9 @@ import net.minecraft.util.math.Vec3d;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class DahmersDelightMod implements ModInitializer {
+public class main implements ModInitializer {
 
-	public static final String modId = "dahmersdelight";
+	public static final String modId = "cannibalsdelight";
     public static final Logger LOGGER = LoggerFactory.getLogger(modId);
 
 	public static final Item RAW_HUMAN_MEAT_ITEM = new Item(new Item.Settings().food(
@@ -71,7 +71,7 @@ public class DahmersDelightMod implements ModInitializer {
 	));
 	public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
 			.icon(() -> new ItemStack(COOKED_HUMAN_MEAT_ITEM))
-			.displayName(Text.translatable("itemGroup.dahmersdelight.dahmersdelight"))
+			.displayName(Text.translatable("itemGroup.cannibalsdelight.cannibalsdelight"))
 			.entries((context, entries) -> {
 				entries.add(RAW_HUMAN_MEAT_ITEM);
 				entries.add(COOKED_HUMAN_MEAT_ITEM);
@@ -96,7 +96,7 @@ public class DahmersDelightMod implements ModInitializer {
 		Registry.register(Registries.ITEM, Identifier.of(modId, "pasta_with_human_meatballs"), PASTA_WITH_HUMAN_MEATBALLS_ITEM);
 		LOGGER.info("Registered.");
 		LOGGER.info("Registering item groups");
-		Registry.register(Registries.ITEM_GROUP, Identifier.of(modId, "dahmersdelight"), ITEM_GROUP);
+		Registry.register(Registries.ITEM_GROUP, Identifier.of(modId, "cannibalsdelight"), ITEM_GROUP);
 		LOGGER.info("Registered.");
 
 

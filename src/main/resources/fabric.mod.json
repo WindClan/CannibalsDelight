@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "dahmersdelight",
+	"id": "cannibalsdelight",
 	"version": "${version}",
 	"name": "Cannibal's Delight",
 	"description": "A Farmer's Delight addon that adds cannibalism.",
@@ -14,11 +14,11 @@
 		"issues": "https://github.com/WindClan/CannibalsDelight/issues"
 	},
 	"license": "GNU GPL v3.0",
-	"icon": "assets/dahmersdelight/icon.png",
+	"icon": "assets/cannibalsdelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.alignedcookie88.dahmersdelight.DahmersDelightMod"
+			"windclan.cannibalsdelight.main"
 		]
 	},
 	"depends": {
