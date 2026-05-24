@@ -3,9 +3,7 @@
   "category": "",
   "group": "",
   "show_notification": false,
-  "ingredient": {
-    "item":"cannibalsdelight:minced_human"
-  },
+  "ingredient": "cannibalsdelight:minced_human",
   "result": {
     "id": "cannibalsdelight:human_patty"
   },

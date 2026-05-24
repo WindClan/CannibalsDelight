@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "cannibalsdelight:raw_human_meat"
-    }
+    "cannibalsdelight:raw_human_meat"
   ],
   "result": [
     {
@@ -20,9 +18,7 @@
         "fabric:type": "farmersdelight:item_ability",
         "action": "knife_dig"
       },
-      {
-        "tag": "c:tools/knife"
-      }
+     "#c:tools/knife"
     ]
   }
 }

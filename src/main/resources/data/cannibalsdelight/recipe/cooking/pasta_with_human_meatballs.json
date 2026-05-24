@@ -3,15 +3,9 @@
   "cookingtime": 200,
   "experience": 1.0,
   "ingredients": [
-    {
-      "item": "cannibalsdelight:minced_human"
-    },
-    {
-      "tag": "c:foods/pasta"
-    },
-    {
-      "item": "farmersdelight:tomato_sauce"
-    }
+    "cannibalsdelight:minced_human",
+    "#c:foods/pasta",
+    "farmersdelight:tomato_sauce"
   ],
   "recipe_book_tab": "meals",
   "result": {
